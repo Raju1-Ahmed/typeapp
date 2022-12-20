@@ -30,7 +30,7 @@ export const TestiMonial = () => {
                         display='flex'
                         justifyContent='center' alignItems='center' textAlign='center' 
                         >
-                        <Avatar alt="Remy Sharp" src="https://i.ibb.co/g9N7mH5/trustpilot.png" />
+                        <Avatar sx={{ width:' 1.5rem', height: '1.5rem' }} alt="Remy Sharp" src="https://i.ibb.co/g9N7mH5/trustpilot.png" />
                         <Typography variant="subtitle1" color="textPrimary" >
                         4.9/5
                         </Typography>
@@ -39,7 +39,7 @@ export const TestiMonial = () => {
                         display='flex'
                         justifyContent='center' alignItems='center' textAlign='center' padding='10px'
                         >
-                        <Avatar alt="Remy Sharp" src="https://i.ibb.co/ZJW7khW/g2crowd.png" />
+                      <Avatar alt="Remy Sharp" sx={{ width:' 1.5rem', height: '1.5rem' }} src="https://i.ibb.co/ZJW7khW/g2crowd.png" />
                         <Typography variant="subtitle1" color="textPrimary" >
                         4.9/5
                         </Typography>
@@ -48,7 +48,7 @@ export const TestiMonial = () => {
                         display='flex'
                         justifyContent='center' alignItems='center' textAlign='center'
                         >
-                        <Avatar alt="Remy Sharp" src="https://i.ibb.co/7jnSZB9/appsumo.png" />
+                        <Avatar sx={{ width:' 1.5rem', height: '1.5rem' }} alt="Remy Sharp" src="https://i.ibb.co/7jnSZB9/appsumo.png" />
                         <Typography variant="subtitle1" color="textPrimary" >
                         4.9/5
                         </Typography>
