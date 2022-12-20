@@ -1,6 +1,7 @@
 import React from 'react'
 import { Lovedby } from './Lovedby'
 import { Navbar } from './Navbar'
+import { OurClient } from './OurClient'
 import { TestiMonial } from './TestiMonial'
 import { TextSliding } from './TextSliding'
 
@@ -11,6 +12,8 @@ export const Home = () => {
         <TextSliding/>
         <TestiMonial/>
         <Lovedby/>
+        <OurClient/>
+
     </div>
   )
 }

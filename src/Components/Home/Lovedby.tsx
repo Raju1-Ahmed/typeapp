@@ -2,17 +2,6 @@ import React from 'react'
 import { Button, Box, Container, Stack, Avatar, Typography, Paper, Grid } from '@mui/material'
 import './Lovedby.css'
 
-// import Image from '../../asset/sliderbg.jpg'; 
-
-
-// const styles = {
-//     paperContainer: {
-//         backgroundImage: `url(${Image})`
-//     }
-// };
-
-
-
 export const Lovedby = () => {
     return (
         <Container>
