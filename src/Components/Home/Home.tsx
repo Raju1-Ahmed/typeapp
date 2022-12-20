@@ -4,6 +4,7 @@ import { Navbar } from './Navbar'
 import { OurClient } from './OurClient'
 import { TestiMonial } from './TestiMonial'
 import { TextSliding } from './TextSliding'
+import { WritingContent } from './WritingContent'
 
 export const Home = () => {
   return (
@@ -13,6 +14,7 @@ export const Home = () => {
         <TestiMonial/>
         <Lovedby/>
         <OurClient/>
+        <WritingContent/>
 
     </div>
   )
