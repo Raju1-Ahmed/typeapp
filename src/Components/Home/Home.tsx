@@ -5,6 +5,7 @@ import { OurClient } from './OurClient'
 import { TabsContent } from './TabsContent'
 import { TestiMonial } from './TestiMonial'
 import { TextSliding } from './TextSliding'
+import { WritingAssistant } from './WritingAssistant'
 import { WritingContent } from './WritingContent'
 
 export const Home = () => {
@@ -17,6 +18,7 @@ export const Home = () => {
         <OurClient/>
         <WritingContent/>
         <TabsContent/>
+        <WritingAssistant/>
 
     </div>
   )

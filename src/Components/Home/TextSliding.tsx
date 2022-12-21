@@ -26,12 +26,10 @@ export const TextSliding = () => {
                 </div>
                 <p className=''>Rytr is an AI writing assistant that helps you create high-quality content, in just a few seconds, at a fraction of the cost!
                 </p>
-                <Button variant="contained" color='primary' size="large" endIcon={<ArrowRightAltIcon />}>
-                    Start Ryting
-                </Button>
+                <Button variant="contained" color='primary' size="large" endIcon={<ArrowRightAltIcon />} > Start Ryting </Button>
                 <Typography variant="caption" display="block" gutterBottom>
-                Free forever, upgrade as you scale!
-      </Typography>
+                    Free forever, upgrade as you scale!
+                </Typography>
             </div>
         </Container>
     )
