@@ -1,4 +1,5 @@
 import React from 'react'
+import { AllInOne } from './AllInOne'
 import { Lovedby } from './Lovedby'
 import { Navbar } from './Navbar'
 import { OurClient } from './OurClient'
@@ -19,6 +20,7 @@ export const Home = () => {
         <WritingContent/>
         <TabsContent/>
         <WritingAssistant/>
+        <AllInOne/>
 
     </div>
   )
