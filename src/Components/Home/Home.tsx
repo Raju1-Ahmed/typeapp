@@ -1,5 +1,6 @@
 import React from 'react'
 import { AllInOne } from './AllInOne'
+import { Brands } from './Brands'
 import { Lovedby } from './Lovedby'
 import { Navbar } from './Navbar'
 import { OurClient } from './OurClient'
@@ -21,6 +22,7 @@ export const Home = () => {
         <TabsContent/>
         <WritingAssistant/>
         <AllInOne/>
+        <Brands/>
 
     </div>
   )

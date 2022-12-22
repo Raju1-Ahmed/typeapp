@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Typography, Container, Avatar, Grid } from '@mui/material';
+import { Box, Typography, Container, Avatar, Grid } from '@mui/material';
 
 
 export const AllInOne = () => {
