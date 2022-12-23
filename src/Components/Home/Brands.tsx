@@ -5,7 +5,7 @@ import { Box, Typography, Container, Avatar, Link } from '@mui/material';
 export const Brands = () => {
     return (
         <Container>
-            <Box borderTop='2px solid #f8f5f1' marginTop='5rem'>
+            <Box borderTop='2px solid #f8f5f1' marginTop='5rem' marginBottom='5rem'>
                 <Box display='flex' justifyContent='center' alignItems='center' >
                     <Typography variant="h3" marginTop='50px' marginBottom='2rem' textAlign='center' maxWidth=' 45rem' fontSize='1.875rem' fontFamily='sans-serif' lineHeight='1.875rem' fontWeight='700' color="black" >
                         Recognized by

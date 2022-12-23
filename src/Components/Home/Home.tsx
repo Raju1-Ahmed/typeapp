@@ -7,6 +7,7 @@ import { OurClient } from './OurClient'
 import { TabsContent } from './TabsContent'
 import { TestiMonial } from './TestiMonial'
 import { TextSliding } from './TextSliding'
+import { UseCases } from './UseCases'
 import { WritingAssistant } from './WritingAssistant'
 import { WritingContent } from './WritingContent'
 
@@ -23,6 +24,7 @@ export const Home = () => {
         <WritingAssistant/>
         <AllInOne/>
         <Brands/>
+        <UseCases/>
 
     </div>
   )
