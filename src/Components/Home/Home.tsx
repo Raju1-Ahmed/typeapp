@@ -1,10 +1,8 @@
 import React from 'react'
-import { Footer } from '../Footer/Footer'
 import { Affordable } from './Affordable'
 import { AllInOne } from './AllInOne'
 import { Brands } from './Brands'
 import { Lovedby } from './Lovedby'
-import { Navbar } from './Navbar'
 import { OurClient } from './OurClient'
 import { TabsContent } from './TabsContent'
 import { TestiMonial } from './TestiMonial'
@@ -16,7 +14,6 @@ import { WritingContent } from './WritingContent'
 export const Home = () => {
   return (
     <div>
-        <Navbar/>
         <TextSliding/>
         <TestiMonial/>
         <Lovedby/>
@@ -28,7 +25,6 @@ export const Home = () => {
         <Brands/>
         <UseCases/>
         <Affordable/>
-        <Footer/>
 
     </div>
   )

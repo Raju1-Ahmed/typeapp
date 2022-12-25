@@ -1,60 +1,60 @@
 import React from 'react'
-import { Box, Button, Typography, Container, Avatar, Grid, Link } from '@mui/material';
+import { Box, Typography, Container, Avatar, Grid, Link } from '@mui/material';
 
 export const Footer = () => {
     return (
-        <Container>
-             <Box padding='30px'>
-             <Grid container spacing={2}>
+            <Box padding='30px' sx={{ backgroundColor:'#f9f9f9' }}>
+            <Container>
+                <Grid container spacing={2}>
                     <Grid item xs={2}>
-                      <Box>
-                      <Box display='flex' justifyContent='start' >
-                            <Avatar alt="Remy Sharp" sx={{ padding: '3px' }} variant="square" src="https://i.ibb.co/Zz6MB9b/logo.png" />
+                        <Box>
+                            <Box display='flex' justifyContent='start' >
+                                <Avatar alt="Remy Sharp" sx={{ padding: '3px' }} variant="square" src="https://i.ibb.co/Zz6MB9b/logo.png" />
+                            </Box>
+                            <Box display='flex' justifyContent='start'>
+                                <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
+                                    Rytr- Best AI Writer
+                                </Typography>
+                            </Box>
+                            <Box display='flex' justifyContent='start'>
+                                <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
+                                    <Link href="#" underline="none" sx={{ color: '#999' }}>  © 2022 Rytr LLC </Link>
+                                </Typography>
+                            </Box>
+                            <Box display='flex' justifyContent='start'>
+                                <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
+                                    <Link href="#" underline="none" sx={{ color: '#999' }}> About us </Link>
+                                </Typography>
+                            </Box>
+                            <Box display='flex' justifyContent='start'>
+                                <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
+                                    <Link href="#" underline="none" sx={{ color: '#999' }}> Press & Media Kit</Link>
+                                </Typography>
+                            </Box>
+                            <Box display='flex' justifyContent='start'>
+                                <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
+                                    <Link href="#" underline="none" sx={{ color: '#999' }}> Privacy Policy</Link>
+                                </Typography>
+                            </Box>
+                            <Box display='flex' justifyContent='start'>
+                                <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
+                                    <Link href="#" underline="none" sx={{ color: '#999' }}>Terms of Use</Link>
+                                </Typography>
+                            </Box>
+                            <Box display='flex' justifyContent='start' >
+                                <Link href="#" underline="none" sx={{ color: '#999' }}>
+                                    <Avatar alt="Remy Sharp" sx={{ padding: '3px' }} variant="square" src="https://storage.googleapis.com/rytr-me/public/image/marketplace/g2-winter-2022.svg" />
+                                </Link>
+                                <Link href="#" underline="none" sx={{ color: '#999' }}>
+                                    <Avatar alt="Remy Sharp" sx={{ padding: '3px' }} variant="square" src="https://storage.googleapis.com/rytr-me/public/image/marketplace/g2-top-50-office-products-2022.svg" />
+                                </Link>
+                            </Box>
                         </Box>
-                        <Box display='flex' justifyContent='start'>
-                            <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
-                                Rytr- Best AI Writer
-                            </Typography>
-                        </Box>
-                        <Box display='flex'justifyContent='start'>
-                            <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
-                                <Link href="#" underline="none" sx={{ color: '#999' }}>  © 2022 Rytr LLC </Link>
-                            </Typography>
-                        </Box>
-                        <Box display='flex' justifyContent='start'>
-                            <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
-                                <Link href="#" underline="none" sx={{ color: '#999' }}> About us </Link>
-                            </Typography>
-                        </Box>
-                        <Box display='flex' justifyContent='start'>
-                            <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
-                                <Link href="#" underline="none" sx={{ color: '#999' }}> Press & Media Kit</Link>
-                            </Typography>
-                        </Box>
-                        <Box display='flex' justifyContent='start'>
-                            <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
-                                <Link href="#" underline="none" sx={{ color: '#999' }}> Privacy Policy</Link>
-                            </Typography>
-                        </Box>
-                        <Box display='flex' justifyContent='start'>
-                            <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
-                                <Link href="#" underline="none" sx={{ color: '#999' }}>Terms of Use</Link>
-                            </Typography>
-                        </Box>
-                        <Box display='flex' justifyContent='start' >
-                            <Link href="#" underline="none" sx={{ color: '#999' }}>
-                                <Avatar alt="Remy Sharp" sx={{ padding: '3px' }} variant="square" src="https://storage.googleapis.com/rytr-me/public/image/marketplace/g2-winter-2022.svg" />
-                            </Link>
-                            <Link href="#" underline="none" sx={{ color: '#999' }}>
-                            <Avatar alt="Remy Sharp" sx={{ padding: '3px' }} variant="square" src="https://storage.googleapis.com/rytr-me/public/image/marketplace/g2-top-50-office-products-2022.svg" />
-                            </Link>
-                        </Box>
-                      </Box>
                     </Grid>
                     <Grid item xs={2}>
-                    <Box display='flex' justifyContent='start'>
-                    <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif' 
-                         fontWeight='600' marginBottom='1rem' color="black" >  Use cases   </Typography>
+                        <Box display='flex' justifyContent='start'>
+                            <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif'
+                                fontWeight='600' marginBottom='1rem' color="black" >  Use cases   </Typography>
                         </Box>
                         <Box display='flex' justifyContent='start'>
                             <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
@@ -108,9 +108,9 @@ export const Footer = () => {
                         </Box>
                     </Grid>
                     <Grid item xs={2}>
-                    <Box display='flex' justifyContent='start'>
-                    <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif' 
-                         fontWeight='600' marginBottom='1rem' color="black" >  Solutions   </Typography>
+                        <Box display='flex' justifyContent='start'>
+                            <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif'
+                                fontWeight='600' marginBottom='1rem' color="black" >  Solutions   </Typography>
                         </Box>
                         <Box display='flex' justifyContent='start'>
                             <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
@@ -135,7 +135,7 @@ export const Footer = () => {
                         <Box display='flex' justifyContent='start' >
                             <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
                                 <Link href="#" underline="none" sx={{ color: '#999' }}>
-Small Business</Link>
+                                    Small Business</Link>
                             </Typography>
                         </Box>
                         <Box display='flex' justifyContent='start'>
@@ -145,9 +145,9 @@ Small Business</Link>
                         </Box>
                     </Grid>
                     <Grid item xs={2}>
-                    <Box display='flex' justifyContent='start'>
-                    <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif' 
-                         fontWeight='600' marginBottom='1rem' color="black" >  Comparisons  </Typography>
+                        <Box display='flex' justifyContent='start'>
+                            <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif'
+                                fontWeight='600' marginBottom='1rem' color="black" >  Comparisons  </Typography>
                         </Box>
                         <Box display='flex' justifyContent='start'>
                             <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
@@ -201,9 +201,9 @@ Small Business</Link>
                         </Box>
                     </Grid>
                     <Grid item xs={2}>
-                    <Box display='flex' justifyContent='start'>
-                    <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif' 
-                         fontWeight='600' marginBottom='1rem' color="black" > Resources</Typography>
+                        <Box display='flex' justifyContent='start'>
+                            <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif'
+                                fontWeight='600' marginBottom='1rem' color="black" > Resources</Typography>
                         </Box>
                         <Box display='flex' justifyContent='start'>
                             <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
@@ -247,9 +247,9 @@ Small Business</Link>
                         </Box>
                     </Grid>
                     <Grid item xs={2}>
-                    <Box display='flex' justifyContent='start'>
-                    <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif' 
-                         fontWeight='600' marginBottom='1rem' color="black" > Connect with us  </Typography>
+                        <Box display='flex' justifyContent='start'>
+                            <Typography variant="h6" textAlign='center' fontSize='1.0rem' fontFamily='sans-serif'
+                                fontWeight='600' marginBottom='1rem' color="black" > Connect with us  </Typography>
                         </Box>
                         <Box display='flex' justifyContent='start'>
                             <Typography variant="body1" fontSize='0.75rem' fontWeight='600' marginBottom='0.75rem' >
@@ -283,7 +283,7 @@ Small Business</Link>
                         </Box>
                     </Grid>
                 </Grid>
-             </Box>
-        </Container>
+            </Container>
+            </Box>
     )
 }
