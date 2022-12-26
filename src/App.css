@@ -115,3 +115,11 @@
   align-items: center;
   width: 500px;
 }
+.css-1l7lc2t-MuiInputBase-root-MuiOutlinedInput-root.Mui-disabled{
+  border-radius: 30px;
+  width:150px;
+  margin-top:5px;
+}
+label[data-shrink=false]+.MuiInputBase-formControl .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px;
+}
