@@ -3,6 +3,12 @@ import './App.css';
 import { createTheme, ThemeProvider } from '@mui/material'
 import { Home } from './Components/Home/Home';
 // import { TextSliding } from './Components/Home/TextSliding';
+import { Route, Routes } from 'react-router-dom';
+import { Navbar } from './Components/Home/Navbar';
+import { Footer } from './Components/Footer/Footer';
+import { UseCase } from './Components/Page/UseCase';
+import { BlogIdea } from './Components/Page/BlogIdea';
+
 
 function App() {
   const theme = createTheme({
@@ -13,10 +19,10 @@ function App() {
         dark: '#ff6f00',
         contrastText: '#6e7eb5',
       },
-        text:{
-          primary: "#7e5658",
-          secondary: "#301427"
-        },
+      text: {
+        primary: "#7e5658",
+        secondary: "#301427"
+      },
       secondary: {
         light: '#ff7961',
         main: '#f44336',
@@ -27,9 +33,15 @@ function App() {
   });
   return (
     <ThemeProvider theme={theme}>
-      <Home/>
-      {/* <TextSliding/> */}
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/usecase" element={<UseCase />} />
+        <Route path="/blogIdel" element={<BlogIdea />} />
+      </Routes>
+      <Footer />
     </ThemeProvider>
+
   );
 }
 
