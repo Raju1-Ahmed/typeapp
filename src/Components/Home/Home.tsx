@@ -16,7 +16,6 @@ import { WritingContent } from './WritingContent'
 export const Home = () => {
   return (
     <div>
-        <Navbar/>
         <TextSliding/>
         <TestiMonial/>
         <Lovedby/>

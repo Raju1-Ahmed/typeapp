@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Box, Container, Typography, Avatar, TextField } from '@mui/material'
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
-import '../../App.'
+import '../../../src/App.css'
 
 export const BlogIdea = () => {
     return (
